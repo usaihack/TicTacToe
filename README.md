@@ -86,10 +86,34 @@ The computer opponent uses intelligent decision-making to:
 
 ---
 
+## 💻 Java Source Code
+
+The core game logic is contained within a single Java file for simplicity and portability.
+
+**[View TicTacToe.java](TicTacToe.java)**
+
+```java
+// Logic preview
+public static void playHumanVsComputer(Scanner sc, char[][] board) {
+    // ... game implementation ...
+    if (currentPlayer == 'X') {
+        // Human turn
+    } else {
+        // AI turn
+        System.out.println(PURPLE + "Computer is thinking..." + RESET);
+        // ...
+    }
+}
+```
+
+---
+
 ## 📋 Requirements
 
-- ☕ Java Runtime Environment (JRE)
+- ☕ **Java 11 or lower** (Critical for Kali Linux compatibility)
 - 🖥️ Terminal with ANSI color support
+
+> **Note:** This project is specifically designed to run on Kali Linux environments where newer Java versions might not be pre-installed. Please ensure you are compiling with Java 11 compatibility.
 
 ---
 
@@ -105,9 +129,18 @@ The computer opponent uses intelligent decision-making to:
 
 ---
 
+## 📂 Project Documents
+
+- [**SETUP.md**](SETUP.md) - formatting compilation and installation instructions
+- [**CONTRIBUTING.md**](CONTRIBUTING.md) - Guidelines for contributing to the project
+- [**CODE_OF_CONDUCT.md**](CODE_OF_CONDUCT.md) - Community standards
+- [**LICENSE**](LICENSE) - MIT License details
+
+---
+
 ## 📝 License
 
-This project is open source and available for educational and personal use.
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 

@@ -131,7 +131,6 @@ public static void playHumanVsComputer(Scanner sc, char[][] board) {
 
 ## 📂 Project Documents
 
-- [**SETUP.md**](SETUP.md) - formatting compilation and installation instructions
 - [**CONTRIBUTING.md**](CONTRIBUTING.md) - Guidelines for contributing to the project
 - [**CODE_OF_CONDUCT.md**](CODE_OF_CONDUCT.md) - Community standards
 - [**LICENSE**](LICENSE) - MIT License details
